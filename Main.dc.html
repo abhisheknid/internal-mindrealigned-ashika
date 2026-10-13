@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ashika Mehta home</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Quicksand:wght@600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FBF7F2}
+a{color:#2A211E}
+a:hover{color:#C2472F}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:#8A3A28}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 28px;border-radius:999px;background:#C2472F;color:#FFFFFF;text-decoration:none;font-weight:500;font-size:16px;border:1.5px solid #C2472F;cursor:pointer;font-family:inherit;box-sizing:border-box}
+.btn:hover{background:#A63A25;border-color:#A63A25;color:#FFFFFF}
+.btn-ghost{background:transparent;color:#2A211E;border:1.5px solid #2A211E}
+.door-cta:hover{background:#000000 !important;color:#FFFFFF !important;border-color:#000000 !important}
+.lc-send:hover{background:#B02D1A !important}
+.lc-w{clip-path:inset(-20% 100% -20% -5%);animation:lcrv 9s linear infinite both}
+.lc-w1{animation-name:lcrv1}.lc-w2{animation-name:lcrv2}.lc-w3{animation-name:lcrv3}
+.lc-ray{transform:scaleX(0);animation:lcray 9s linear infinite both}
+.lc-ray2{animation-name:lcray2}.lc-ray3{animation-name:lcray3}
+@keyframes lcrv1{0%,3%{clip-path:inset(-20% 100% -20% -5%);opacity:1;transform:translateY(8px);animation-timing-function:cubic-bezier(.5,.1,.25,1)}15%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0)}84%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0);animation-timing-function:ease}92%,100%{clip-path:inset(-20% -5% -20% -5%);opacity:0;transform:translateY(0)}}
+@keyframes lcrv2{0%,18%{clip-path:inset(-20% 100% -20% -5%);opacity:1;transform:translateY(8px);animation-timing-function:cubic-bezier(.5,.1,.25,1)}30%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0)}84%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0);animation-timing-function:ease}92%,100%{clip-path:inset(-20% -5% -20% -5%);opacity:0;transform:translateY(0)}}
+@keyframes lcrv3{0%,33%{clip-path:inset(-20% 100% -20% -5%);opacity:1;transform:translateY(8px);animation-timing-function:cubic-bezier(.5,.1,.25,1)}45%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0)}84%{clip-path:inset(-20% -5% -20% -5%);opacity:1;transform:translateY(0);animation-timing-function:ease}92%,100%{clip-path:inset(-20% -5% -20% -5%);opacity:0;transform:translateY(0)}}
+@keyframes lcray{0%,13%{transform:scaleX(0);animation-timing-function:cubic-bezier(.3,1.5,.5,1)}19%{transform:scaleX(1)}84%{transform:scaleX(1);animation-timing-function:ease-in}92%,100%{transform:scaleX(0)}}
+@keyframes lcray2{0%,28%{transform:scaleX(0);animation-timing-function:cubic-bezier(.3,1.5,.5,1)}34%{transform:scaleX(1)}84%{transform:scaleX(1);animation-timing-function:ease-in}92%,100%{transform:scaleX(0)}}
+@keyframes lcray3{0%,43%{transform:scaleX(0);animation-timing-function:cubic-bezier(.3,1.5,.5,1)}49%{transform:scaleX(1)}84%{transform:scaleX(1);animation-timing-function:ease-in}92%,100%{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){.lc-w,.lc-ray{animation:none !important;clip-path:none;transform:none}}
+.soc-cta{transition:background .25s,color .25s,border-color .25s,transform .25s}
+.soc-cta:hover{background:#000000 !important;color:#FFFFFF !important;border-color:#000000 !important;transform:translateY(-2px)}
+.soc-cta:hover .soc-cap{color:#E6D3C8 !important}
+.soc-cta:hover .soc-ic{background:#FFFFFF !important}
+.nl-btn:hover{background:#000000 !important}
+.btn-ghost:hover{background:#2A211E;border-color:#2A211E;color:#FFFFFF}
+.link{color:#2A211E;font-weight:500;text-decoration:underline;text-underline-offset:4px}
+.ph{background:#E3D5CA;color:#5C4B44;display:flex;align-items:center;justify-content:center;text-align:center;font-size:14px;line-height:1.4;box-sizing:border-box;padding:12px}
+input{font-family:inherit}
+details>summary{list-style:none}
+details>summary::-webkit-details-marker{display:none}
+</style>
+</helmet>
+<div style="display:flex;flex-direction:column;min-height:8000px;max-width:100%;overflow-x:clip;background:#FBF7F2;color:#2A211E;font-family:'DM Sans',system-ui,sans-serif;">
+
+<!-- HEADER + HERO -->
+<div style="background:linear-gradient(180deg,#F8EAE5 0%,#EAC8BA 100%);">
+<header style="max-width:1182px;margin:0 auto;height:130px;box-sizing:border-box;padding:44px 56px 0;display:flex;align-items:flex-start;">
+  <a href="/" style="text-decoration:none;display:flex;flex-direction:column;line-height:1;gap:4px;margin-top:2px;">
+    <span style="font-family: Merriweather, serif; font-size: clamp(28px,2.65vw,36px); line-height: 1; color: #141010; letter-spacing: -0.01em; -webkit-text-stroke: 0.5px #141010; font-weight: 600; width: clamp(200px,23.9vw,324px)">Ashika Mehta’s</span>
+    <span style="font-family:'Quicksand','DM Sans',sans-serif;font-weight:600;font-size:21px;line-height:1;color:#E04A33;letter-spacing:-0.01em;">mind realigned</span>
+  </a>
+  <nav style="display: flex; align-items: center; gap: clamp(20px,3.68vw,50px); font-size: clamp(15px,1.36vw,18.5px); margin-left: clamp(16px,6.6vw,90px); height: 36px; white-space: nowrap; flex: 0 1 523px; min-width: max-content; margin-right: clamp(20px,3.68vw,50px);">
+    <a href="/motherhood" style="text-decoration:none;color:#141010;">Motherhood</a>
+    <a href="/relationships" style="text-decoration:none;color:#141010;">Relationships</a>
+    <a href="#talks" style="text-decoration:none;color:#141010;">Talks</a>
+    <a href="#story" style="text-decoration:none;color:#141010;">About</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: clamp(16px,2vw,27px); height: 36px; white-space: nowrap; flex: 0 1 293px; min-width: max-content">
+    <a href="#contact" style="font-size:clamp(15px,1.36vw,18.5px);text-decoration:none;color:#141010;">Engagements</a>
+    <a href="#glimpse" style="display:inline-flex;align-items:center;justify-content:center;height:36px;width:101px;border-radius:999px;background:#B83A2A;color:#FFFFFF;text-decoration:none;font-size:16px;">Reach Out</a>
+  </div>
+</header>
+
+<section style="max-width:1182px;margin:0 auto;box-sizing:border-box;padding:30px 56px 78px;display:flex;flex-wrap:nowrap;align-items:flex-start;">
+  <div style="flex:9 0 440px;min-width:0;display:flex;flex-direction:column;">
+    <span style="font-size:13px;letter-spacing:.08em;font-weight:500;color:#F29A7E;line-height:1;margin-top:0;">20 YEARS IN THERAPY</span>
+    <h1 style="margin: 14px 0 0; font-family: Merriweather, serif; font-weight: 900; font-size: 56px; line-height: 1.25; letter-spacing: 1px; color: #111111; -webkit-text-stroke: 0.7px #111111">Understand<br>your patterns.<br>Live Better.</h1>
+    <p style="margin:36px 0 0;font-size:15px;line-height:21px;letter-spacing:-0.005em;color:#8A736D;"><b style="color:#7A625C;">Modern life can be overwhelming.</b><br>Learn from science-backed, self-paced video courses<br>that teach real-life emotional skills to help you feel<br>calmer, think clearer, and build real confidence.</p>
+    <div style="display:flex;align-items:center;gap:34px;margin-top:34px;">
+      <a href="#glimpse" style="display:inline-flex;align-items:center;justify-content:center;height:36px;width:184px;border-radius:999px;background:#B83A2A;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:16px;">Explore Courses</a>
+      <a href="#glimpse" style="color:#241C1A;font-weight:700;font-size:16px;text-decoration:underline;text-underline-offset:3px;">Book Consultation</a>
+    </div>
+  </div>
+
+  <div style="flex: 20 1 340px; max-width: 540px; min-width: 0; display: flex; flex-direction: column; gap: 26px; margin-top: 5px">
+    <div style="overflow:hidden;border-radius:28px;">
+      <div style="display:flex;">
+        <sc-if value="{{show0}}" hint-placeholder-val="{{true}}">
+        <div role="img" aria-label="Ashika speaking in a TEDx talk" style="width:100%;height:344px;border-radius:28px;background:#F4F4F4 url(&quot;./assets/acaf16bd7b8c15c8d08a70d7643d7961.png&quot;) center / cover no-repeat;"></div>
+        </sc-if>
+        <sc-if value="{{show1}}" hint-placeholder-val="{{false}}">
+        <div role="img" aria-label="Ashika speaking at a Harvard Business School workshop" style="width:100%;height:344px;border-radius:28px;background:#2B3A40 url(&quot;./assets/8560c1324e4b00aa4769db0172dbf48c.png&quot;) center / cover no-repeat;"></div>
+        </sc-if>
+        <sc-if value="{{show2}}" hint-placeholder-val="{{false}}">
+        <div role="img" aria-label="Ashika on The Tara Sharma Show podcast" style="width:100%;height:344px;border-radius:28px;background:#2B3A40 url(&quot;./assets/4362da2a37479394e6c43dcd7ed52881.png&quot;) center / cover no-repeat;"></div>
+        </sc-if>
+        <sc-if value="{{show3}}" hint-placeholder-val="{{false}}">
+        <div role="img" aria-label="Ashika on a panel at the Harvard T.H. Chan School of Public Health" style="width:100%;height:344px;border-radius:28px;background:#2B3A40 url(&quot;./assets/9f07b419dc311c24dd4b3d6b9b6bb4a2.png&quot;) center / cover no-repeat;"></div>
+        </sc-if>
+        <sc-if value="{{show4}}" hint-placeholder-val="{{false}}">
+        <div role="img" aria-label="Ashika with the words Therapy, Courses and Wellbeing" style="width:100%;height:344px;border-radius:28px;background:#2B3A40 url(&quot;./assets/9f3bae4413c78a1e7348c2b0b25526ff.png&quot;) center / cover no-repeat;"></div>
+        </sc-if>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-left:7px;">
+      <sc-for list="{{chips}}" as="chip" hint-placeholder-count="5">
+        <button type="button" onClick="{{chip.go}}" style="{{chip.style}}">{{chip.label}}</button>
+      </sc-for>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- LOGO / PROOF BAND -->
+
+
+<!-- DOES THIS SOUND LIKE YOU -->
+<img src="./assets/552a59b9e2e361ad7caad700fd9bed99.png" alt="screenshot-2026-10-07-at-8-14-23-pm" width="1362" height="160" style="max-width: 100%; height: auto; display: block; object-fit: cover; width: 1362px; aspect-ratio: 1362 / 160">
+
+<!-- MEET ASHIKA -->
+<section id="sound" style="box-sizing:border-box;background:#FFFFFF;padding:40px 56px 72px;">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:center;">
+    <span style="font-size:13px;letter-spacing:.08em;font-weight:500;color:#F29A7E;line-height:1;">IS THIS YOU?</span>
+    <h2 style="margin: 22px 0 0; font-family: Merriweather, serif; font-weight: 900; font-size: 56px; line-height: 1.05; letter-spacing: -0.012em; color: #111111; -webkit-text-stroke: 0.7px #111111; text-align: center">I don’t think anyone gets it.</h2>
+    <p style="margin:20px 0 0;font-size:17px;line-height:22px;font-weight:700;color:#8A6B66;text-align:center;">Our work starts with the thoughts<br>people rarely say out loud.</p>
+    <div style="width:632px;max-width:100%;margin-top:22px;">
+      <sc-if value="{{showDoor0}}" hint-placeholder-val="{{true}}">
+      <div style="box-sizing:border-box;width:100%;height:268px;border-radius:46px;background:#FFF0EB;padding:42px 40px 0;display:flex;flex-direction:column;align-items:center;gap:21px;text-align:center;">
+        <p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“I love my baby, but I’m still <b>struggling</b>”</p><p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“How do I do work, and rest, and still <b>feel like me</b>?”</p><p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“I miss who <b>I was before</b>”</p>
+        <a class="door-cta" href="/motherhood" style="margin-top:3px;transition:background .2s ease,color .2s ease,border-color .2s ease;display:inline-flex;align-items:center;justify-content:center;width:288px;height:36px;border-radius:999px;border:1px solid #C0392B;background:#FFE3DC;color:#B83A2A;text-decoration:none;font-size:16px;">Start with Motherhood</a>
+      </div>
+      </sc-if>
+      <sc-if value="{{showDoor1}}" hint-placeholder-val="{{false}}">
+      <div style="box-sizing:border-box;width:100%;height:268px;border-radius:46px;background:#FFFEEA;padding:42px 40px 0;display:flex;flex-direction:column;align-items:center;gap:21px;text-align:center;">
+        <p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“We keep having the <b>same fights</b>.”</p><p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“<b>I can’t say what I need</b> without an argument.”</p><p style="margin:0;font-size:21px;line-height:28px;font-style:italic;letter-spacing:-0.01em;color:#141010;">“We <b>stopped feeling</b> like a team.”</p>
+        <a class="door-cta" href="/relationships" style="margin-top:3px;transition:background .2s ease,color .2s ease,border-color .2s ease;display:inline-flex;align-items:center;justify-content:center;width:288px;height:36px;border-radius:999px;border:1px solid #C0392B;background:#FFF4DA;color:#B83A2A;text-decoration:none;font-size:16px;">Understand Relationships</a>
+      </div>
+      </sc-if>
+    </div>
+  </div>
+</section><section id="story" style="box-sizing:border-box;background:#FBF0EA;padding:58px 56px 64px;">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:center;">
+    <span style="font-size:12px;letter-spacing:.08em;font-weight:500;color:#F29A7E;line-height:1;">SMALL STEPS</span>
+    <h2 style="margin: 20px 0 0; font-family: Merriweather, serif; font-weight: 900; font-size: 56px; line-height: 1; letter-spacing: -0.012em; color: #111111; -webkit-text-stroke: 0.7px #111111; text-align: center">Global Impact</h2>
+    <p style="margin:26px 0 0;font-size:15px;line-height:21px;font-weight:700;color:#8A6B66;text-align:center;">TEDx speaker · Columbia University · Harvard Business School Speaker ·<br>Breach Candy Hospital Trust · Times of India Columnist</p>
+    <div style="display:flex;align-items:flex-start;margin-top:44px;">
+      <div style="width:206px;">
+      <div style="display:flex;flex-direction:column;align-items:flex-start;">
+        <div style="font-family:'Instrument Serif',Georgia,serif;font-size:62px;line-height:1;letter-spacing:-0.012em;color:#111111;-webkit-text-stroke:0.6px #111111;">15+</div>
+        <div style="margin-top:14px;font-size:15px;line-height:20px;font-weight:700;color:#8A6B66;">Yearly Workshops</div>
+      </div>
+      </div>
+      <div style="width:238px;">
+      <div style="display:flex;flex-direction:column;align-items:flex-start;">
+        <div style="font-family:'Instrument Serif',Georgia,serif;font-size:62px;line-height:1;letter-spacing:-0.012em;color:#111111;-webkit-text-stroke:0.6px #111111;">10,000</div>
+        <div style="margin-top:14px;font-size:15px;line-height:20px;font-weight:700;color:#8A6B66;">Lives Changed</div>
+      </div>
+      </div>
+      <div>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;">
+        <div style="font-family:'Instrument Serif',Georgia,serif;font-size:62px;line-height:1;letter-spacing:-0.012em;color:#111111;-webkit-text-stroke:0.6px #111111;">100+</div>
+        <div style="margin-top:14px;font-size:15px;line-height:20px;font-weight:700;color:#8A6B66;">Events &amp; Publishing</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TALKS / PODCASTS -->
+<section id="talks" style="overflow-x: clip; box-sizing: border-box; background: linear-gradient(180deg,#FFFFFF 0,#FFFFFF 327px,#F5E4DE 327px,#EAC6B8 100%); padding: 14px 56px 48px; border-radius: 0px">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:center;">
+    <span style="font-size:12px;letter-spacing:.08em;font-weight:500;color:#F29A7E;line-height:1;">FEATURED</span>
+    <h2 style="margin: 16px 0 0; font-family: Merriweather, serif; font-weight: 900; font-size: 65px; line-height: 1; letter-spacing: -0.012em; color: #111111; -webkit-text-stroke: 0.7px #111111; text-align: center">Conversations</h2>
+    <p style="margin:34px 0 0;font-size:15px;line-height:20px;font-weight:700;color:#8A6B66;text-align:center;">Clips from featured podcasts</p>
+    <div style="position:relative;width:680px;max-width:100%;height:380px;margin-top:38px;">
+      <a href="{{c0.href}}" target="_blank" rel="noopener" aria-label="{{c0.label}}" tabindex="{{c0.tab}}" style="{{c0.wrap}}">
+        <span style="{{c0.tstyle}}">{{c0.title}}</span>
+        <span style="{{c0.cstyle}}">{{c0.cap}}</span>
+      </a>
+      <a href="{{c1.href}}" target="_blank" rel="noopener" aria-label="{{c1.label}}" tabindex="{{c1.tab}}" style="{{c1.wrap}}">
+        <span style="{{c1.tstyle}}">{{c1.title}}</span>
+        <span style="{{c1.cstyle}}">{{c1.cap}}</span>
+      </a>
+      <a href="{{c2.href}}" target="_blank" rel="noopener" aria-label="{{c2.label}}" tabindex="{{c2.tab}}" style="{{c2.wrap}}">
+        <span style="{{c2.tstyle}}">{{c2.title}}</span>
+        <span style="{{c2.cstyle}}">{{c2.cap}}</span>
+      </a>
+      <a href="{{c3.href}}" target="_blank" rel="noopener" aria-label="{{c3.label}}" tabindex="{{c3.tab}}" style="{{c3.wrap}}">
+        <span style="{{c3.tstyle}}">{{c3.title}}</span>
+        <span style="{{c3.cstyle}}">{{c3.cap}}</span>
+      </a>
+      <a href="{{c4.href}}" target="_blank" rel="noopener" aria-label="{{c4.label}}" tabindex="{{c4.tab}}" style="{{c4.wrap}}">
+        <span style="{{c4.tstyle}}">{{c4.title}}</span>
+        <span style="{{c4.cstyle}}">{{c4.cap}}</span>
+      </a>
+      <a href="{{c5.href}}" target="_blank" rel="noopener" aria-label="{{c5.label}}" tabindex="{{c5.tab}}" style="{{c5.wrap}}">
+        <span style="{{c5.tstyle}}">{{c5.title}}</span>
+        <span style="{{c5.cstyle}}">{{c5.cap}}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="voices" style="box-sizing:border-box;background:#FFFFFF;padding:62px 56px 72px;">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:center;">
+    <h2 style="margin: 0; font-family: Merriweather, serif; font-weight: 900; font-size: 56px; line-height: 1; letter-spacing: -0.012em; color: #111111; -webkit-text-stroke: 0.7px #111111; text-align: center">Testimonials</h2>
+    <p style="margin:34px 0 0;font-size:16px;line-height:22px;font-weight:700;letter-spacing:-0.01em;color:#8A6B66;text-align:center;">Join a community of over 10,000 people living better.</p>
+    <div style="display:flex;gap:8px;margin-top:22px;">
+      <sc-for list="{{tabs}}" as="tab" hint-placeholder-count="3">
+        <button type="button" onClick="{{tab.go}}" style="{{tab.style}}">{{tab.label}}</button>
+      </sc-for>
+    </div>
+    <div style="display:flex;align-items:flex-start;justify-content:center;gap:30px;margin-top:30px;min-height:262px;">
+      <sc-for list="{{tCards}}" as="t" hint-placeholder-count="3">
+        <figure style="margin:0;width:260px;display:flex;flex-direction:column;align-items:center;text-align:center;">
+          <blockquote style="margin:0;font-family:'Instrument Serif',Georgia,serif;font-size:21px;line-height:22px;color:#2B2321;"><span style="text-decoration:underline;text-underline-offset:2px;">{{t.ul}}</span>{{t.rest}}</blockquote>
+          <figcaption style="margin-top:14px;font-size:13px;line-height:18px;font-style:italic;font-weight:300;color:#8F8480;">{{t.who}}</figcaption>
+          <span style="{{t.avatar}}">{{t.init}}</span>
+          <img src="{{t.logo}}" alt="{{t.logoAlt}}" style="margin-top:6px;height:40px;width:auto;display:block;">
+        </figure>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses" style="box-sizing:border-box;background:#FCF0EB;padding:48px 56px 84px;">
+  <div style="max-width:1094px;margin:0 auto;display:flex;flex-direction:column;align-items:center;">
+    <img src="./assets/92d28c029e367fa1f0c5eaceadbca30e.png" alt="Learners who have taken Ashika's courses" style="width:140px;height:auto;display:block;">
+    <h2 class="serif" style="margin: 8px 0 0; font-size: 56px; line-height: 1.1; font-weight: 900; color: #000000; -webkit-text-stroke: .7px #000000; text-align: center; font-family: Merriweather, serif; height: 65px">Explore Resources</h2>
+    <p style="margin: 26px 0 0; font-size: 16.5px; line-height: 24px; font-weight: 700; letter-spacing: -0.01em; color: #8A6B66; text-align: center; width: 510px; height: 38px">Self paced <a href="#courses" style="color:#8A6B66;text-decoration:underline;text-underline-offset:3px;">programmes</a>, <a href="#talks" style="color:#8A6B66;text-decoration:underline;text-underline-offset:3px;">workshops</a> and <a href="#begin" style="color:#8A6B66;text-decoration:underline;text-underline-offset:3px;">in-person therapy</a>.</p><div style="justify-self: end; display: flex; align-items: center; gap: 8px">
+        <span style="font-size:12px;font-weight:700;color:#8A6B66;">Currency</span>
+        <div role="group" aria-label="Currency" style="display:flex;gap:4px;padding:3px;border-radius:999px;background:rgba(255,255,255,.55);border:1px solid #E6CFC6;">
+          <sc-for list="{{curs}}" as="cu" hint-placeholder-count="5">
+            <button type="button" onClick="{{cu.go}}" aria-pressed="{{cu.pressed}}" style="{{cu.style}}">{{cu.label}}</button>
+          </sc-for>
+        </div>
+      </div>
+    
+    <div style="margin-top:22px;position:relative;width:1094px;max-width:100%;height:510px;">
+      <div style="{{rc0.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc0.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc0.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc0.goF}}" aria-pressed="{{rc0.pF}}" style="{{rc0.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc0.goO}}" aria-pressed="{{rc0.pO}}" style="{{rc0.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc0.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc0.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc0.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc0.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc0.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc0.b3}}</span></div>
+          </div>
+          <a href="{{rc0.href}}" tabindex="{{rc0.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc0.cta}}</a>
+        </div>
+      </div>
+      <div style="{{rc1.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc1.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc1.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc1.goF}}" aria-pressed="{{rc1.pF}}" style="{{rc1.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc1.goO}}" aria-pressed="{{rc1.pO}}" style="{{rc1.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc1.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc1.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc1.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc1.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc1.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc1.b3}}</span></div>
+          </div>
+          <a href="{{rc1.href}}" tabindex="{{rc1.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc1.cta}}</a>
+        </div>
+      </div>
+      <div style="{{rc2.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc2.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc2.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc2.goF}}" aria-pressed="{{rc2.pF}}" style="{{rc2.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc2.goO}}" aria-pressed="{{rc2.pO}}" style="{{rc2.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc2.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc2.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc2.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc2.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc2.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc2.b3}}</span></div>
+          </div>
+          <a href="{{rc2.href}}" tabindex="{{rc2.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc2.cta}}</a>
+        </div>
+      </div>
+      <div style="{{rc3.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc3.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc3.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc3.goF}}" aria-pressed="{{rc3.pF}}" style="{{rc3.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc3.goO}}" aria-pressed="{{rc3.pO}}" style="{{rc3.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc3.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc3.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc3.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc3.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc3.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc3.b3}}</span></div>
+          </div>
+          <a href="{{rc3.href}}" tabindex="{{rc3.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc3.cta}}</a>
+        </div>
+      </div>
+      <div style="{{rc4.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc4.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc4.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc4.goF}}" aria-pressed="{{rc4.pF}}" style="{{rc4.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc4.goO}}" aria-pressed="{{rc4.pO}}" style="{{rc4.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc4.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc4.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc4.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc4.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc4.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc4.b3}}</span></div>
+          </div>
+          <a href="{{rc4.href}}" tabindex="{{rc4.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc4.cta}}</a>
+        </div>
+      </div>
+      <div style="{{rc5.wrap}}">
+        <img src="./assets/9fd5940b9330388beb099e6a852d5ad3.png" alt="" aria-hidden="true" style="position:absolute;right:8px;bottom:0;width:132px;height:auto;display:block;z-index:0;pointer-events:none;">
+        <div style="position:relative;z-index:1;padding:26px 24px 0;display:flex;flex-direction:column;">
+          <span style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:14px;">{{rc5.eyebrow}}</span>
+          <h3 style="margin:8px 0 0;font-family:Merriweather,Georgia,serif;font-size:20px;line-height:30px;color:#141010;font-weight:700;letter-spacing:-.01em;white-space:nowrap;">{{rc5.title}}</h3>
+          <div role="group" aria-label="Course format" style="margin-top:9px;width:279px;max-width:100%;height:32px;box-sizing:border-box;display:flex;border-radius:999px;background:#B83A2A;border:1px solid #141010;overflow:hidden;">
+            <button type="button" onClick="{{rc5.goF}}" aria-pressed="{{rc5.pF}}" style="{{rc5.sF}}">Facilitated Course</button>
+            <button type="button" onClick="{{rc5.goO}}" aria-pressed="{{rc5.pO}}" style="{{rc5.sO}}">Course Only</button>
+          </div>
+          <div style="margin-top:12px;display:flex;align-items:baseline;gap:12px;height:40px;" aria-live="polite">
+            <span class="serif" style="font-size:31px;line-height:38px;color:#141010;text-decoration:line-through;text-decoration-thickness:2.5px;-webkit-text-stroke:.4px #141010;">{{rc5.orig}}</span>
+            <span class="serif" style="font-size:31px;line-height:38px;color:#F29A7E;">{{rc5.disc}}</span>
+          </div>
+          <p style="margin:6px 0 0;font-size:13px;line-height:17px;font-weight:700;color:#8A6B66;max-width:262px;">{{rc5.sub}}</p>
+          <div style="margin-top:14px;display:flex;flex-direction:column;gap:12px;max-width:262px;">
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc5.b1}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc5.b2}}</span></div>
+            <div style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:17.5px;color:#141010;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><path d="M4.5 12.5l5 5L19.5 6.5"></path></svg><span>{{rc5.b3}}</span></div>
+          </div>
+          <a href="{{rc5.href}}" tabindex="{{rc5.tab}}" style="margin-top:28px;align-self:flex-start;width:168px;height:37px;border-radius:999px;background:#141010;color:#FFFFFF;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:400;letter-spacing:-.01em;">{{rc5.cta}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEAD CAPTURE -->
+<section id="glimpse" style="box-sizing:border-box;background:radial-gradient(ellipse 70% 120% at 38% 50%,#F8E7E0 0%,#F5DDD3 55%,#F1D2C6 100%);padding:84px 56px 90px;display:flex;align-items:center;overflow-x:clip;">
+  <div style="max-width:1182px;margin:0 auto;width:100%;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:28px 40px;">
+    <div style="flex:0 1 400px;min-width:0;display:flex;flex-direction:column;">
+      <span style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:#F29A7E;line-height:16px;">Claim the better life</span>
+      <h2 class="serif" style="margin: 14px 0 0; font-size: 56px; line-height: .98; font-weight: 900; color: #000000; -webkit-text-stroke: .7px #000000; letter-spacing: -.01em; font-family: Merriweather, serif; width: 426px">We’d be<br>delighted to<br>send you a gift.</h2>
+      <p style="margin:22px 0 0;font-size:16.5px;line-height:22px;font-weight:700;letter-spacing:-.01em;color:#8A6B66;">For the next time you’re in a spot,<br>pick your free gift that can help you out.</p>
+    </div>
+    <div aria-hidden="true" style="flex:0 0 230px;position:relative;width:230px;height:190px;">
+      <div style="position:absolute;left:107px;top:23px;transform:translate(-50%,-50%) rotate(23deg);white-space:nowrap;">
+        <span class="lc-w lc-w1" style="display:inline-block;font-family:'Lobster Two','Playfair Display',Georgia,serif;font-style:italic;font-weight:700;font-size:30px;line-height:1.3;padding:0 6px;color:#CC3A22;letter-spacing:0;">Therapy</span>
+      </div>
+      <div style="position:absolute;left:86px;top:86px;transform:translate(-50%,-50%) rotate(4deg);white-space:nowrap;">
+        <span class="lc-w lc-w2" style="display:inline-block;font-family:'Lobster Two','Playfair Display',Georgia,serif;font-style:italic;font-weight:700;font-size:30px;line-height:1.3;padding:0 6px;color:#CC3A22;letter-spacing:0;">Courses</span>
+      </div>
+      <div style="position:absolute;left:77px;top:150px;transform:translate(-50%,-50%) rotate(-12deg);white-space:nowrap;">
+        <span class="lc-w lc-w3" style="display:inline-block;font-family:'Lobster Two','Playfair Display',Georgia,serif;font-style:italic;font-weight:700;font-size:30px;line-height:1.3;padding:0 6px;color:#CC3A22;letter-spacing:0;">Wellbeing</span>
+      </div>
+      <div style="position:absolute;left:169px;top:52px;width:0;height:0;transform:rotate(34.5deg);transform-origin:0 0;">
+        <div class="lc-ray lc-ray1" style="position:absolute;left:-6px;top:-6px;width:47px;height:12px;transform-origin:6px 50%;">
+          <svg width="47" height="12" viewBox="-6 -6 47 12" fill="#CC3A22" style="display:block;overflow:visible;"><path d="M0 -5.5 L38.8 -0.8 Q40.2 0 38.8 0.8 L0 5.5 A5.5 5.5 0 0 1 0 -5.5 Z"></path></svg>
+        </div>
+      </div>
+      <div style="position:absolute;left:158px;top:88px;width:0;height:0;transform:rotate(6.0deg);transform-origin:0 0;">
+        <div class="lc-ray lc-ray2" style="position:absolute;left:-6px;top:-6px;width:46px;height:12px;transform-origin:6px 50%;">
+          <svg width="46" height="12" viewBox="-6 -6 46 12" fill="#CC3A22" style="display:block;overflow:visible;"><path d="M0 -5.5 L38.2 -0.8 Q39.6 0 38.2 0.8 L0 5.5 A5.5 5.5 0 0 1 0 -5.5 Z"></path></svg>
+        </div>
+      </div>
+      <div style="position:absolute;left:159px;top:129px;width:0;height:0;transform:rotate(-25.9deg);transform-origin:0 0;">
+        <div class="lc-ray lc-ray3" style="position:absolute;left:-6px;top:-6px;width:47px;height:12px;transform-origin:6px 50%;">
+          <svg width="47" height="12" viewBox="-6 -6 47 12" fill="#CC3A22" style="display:block;overflow:visible;"><path d="M0 -5.5 L38.9 -0.8 Q40.3 0 38.9 0.8 L0 5.5 A5.5 5.5 0 0 1 0 -5.5 Z"></path></svg>
+        </div>
+      </div>
+    </div>
+    <form style="flex:0 1 332px;min-width:0;background:#FFFFFF;border-radius:22px;padding:26px 24px 24px;display:flex;flex-direction:column;box-sizing:border-box;box-shadow:0 12px 32px -6px rgba(120,60,45,.28),0 2px 8px rgba(120,60,45,.12);" action="#">
+      <span class="serif" style="font-size:29px;line-height:34px;color:#141010;-webkit-text-stroke:.4px #141010;">Send me a free lesson</span>
+      <span style="margin-top:17px;font-size:12px;line-height:16px;font-weight:700;color:#3A2E2A;">Select a course</span>
+      <div role="group" aria-label="Select a course" style="margin-top:7px;display:flex;flex-wrap:wrap;gap:6px;">
+          <sc-for list="{{lcChips}}" as="lcc" hint-placeholder-count="5">
+            <button type="button" onClick="{{lcc.go}}" aria-pressed="{{lcc.pressed}}" style="{{lcc.style}}">{{lcc.label}}</button>
+          </sc-for>
+      </div>
+      <label for="g-name" style="margin-top:20px;font-size:11.5px;font-weight:500;color:#141010;">First name</label>
+      <input id="g-name" type="text" placeholder="Your first name" style="margin-top:6px;height:40px;box-sizing:border-box;border:1px solid #D9A99A;border-radius:11px;padding:0 14px;font-size:12.5px;color:#2A211E;background:#FFFFFF;">
+      <label for="g-email" style="margin-top:14px;font-size:11.5px;font-weight:500;color:#141010;">Email</label>
+      <input id="g-email" type="email" placeholder="you@email.com" style="margin-top:6px;height:40px;box-sizing:border-box;border:1px solid #D9A99A;border-radius:11px;padding:0 14px;font-size:12.5px;color:#2A211E;background:#FFFFFF;">
+      <div style="margin-top:14px;display:flex;align-items:center;gap:8px;font-size:12px;color:#3A2E2A;">
+        <input id="g-wa" type="checkbox" style="width:14px;height:14px;margin:0;accent-color:#D03A24;">
+        <label for="g-wa">Also send it on WhatsApp</label>
+      </div>
+      <button type="submit" class="lc-send" style="margin-top:14px;width:100%;height:43px;border:0;border-radius:999px;background:#D03A24;color:#FFFFFF;font-family:inherit;font-size:13.5px;font-weight:500;cursor:pointer;">Send me the free lesson</button>
+      <span style="margin-top:14px;font-size:10.5px;line-height:15px;color:#3A2E2A;">No spam. One email with your lesson, then a gentle note about the full programme. Unsubscribe any time.</span>
+    </form>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="min-height:640px;box-sizing:border-box;background:#FFFFFF;padding:72px 56px;">
+  <div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:64px;align-items:flex-start;">
+    <div style="flex:0 1 340px;min-width:0;display:flex;flex-direction:column;gap:16px;">
+      <span class="eyebrow">Questions</span>
+      <h2 class="serif" style="margin: 0; font-size: 52px; line-height: 1.08; font-family: Merriweather, serif; font-weight: 900">FAQs</h2>
+    </div>
+    <div style="flex:1 1 560px;min-width:0;border-top:1px solid #EADFD6;">
+      <details open="" style="border-bottom:1px solid #EADFD6;padding:24px 0;">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:20px;font-weight:500;">Is this therapy?
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg>
+        </summary>
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.6;color:#5A4B46;max-width:560px;">No. Ashika's courses are educational and are not a substitute for therapy or medical care. If you're struggling right now, [link to support resources].</p>
+      </details>
+      <details style="border-bottom:1px solid #EADFD6;padding:24px 0;">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:20px;font-weight:500;">How much time does it take?
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+        </summary>
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.6;color:#5A4B46;">[Answer]</p>
+      </details>
+      <details style="border-bottom:1px solid #EADFD6;padding:24px 0;">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:20px;font-weight:500;">What if I'm in a hard moment right now?
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+        </summary>
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.6;color:#5A4B46;">[Answer, with a link to support resources]</p>
+      </details>
+      <details style="border-bottom:1px solid #EADFD6;padding:24px 0;">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:20px;font-weight:500;">Can my partner join me?
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+        </summary>
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.6;color:#5A4B46;">[Answer]</p>
+      </details>
+      <details style="border-bottom:1px solid #EADFD6;padding:24px 0;">
+        <summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:20px;font-weight:500;">What if it isn't for me?
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+        </summary>
+        <p style="margin:14px 0 0;font-size:17px;line-height:1.6;color:#5A4B46;">[Refund or guarantee policy]</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING CTA -->
+<section id="begin" style="min-height:480px;box-sizing:border-box;background:#F3EBE3;padding:72px 56px;display:flex;align-items:center;justify-content:center;">
+  <div style="max-width:860px;width:100%;display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center;">
+    <h2 class="serif" style="margin: 0; font-size: 84px; line-height: 1; font-family: Merriweather, serif; font-weight: 900">Stay in the circle</h2>
+    <p style="margin:0;font-size:19px;line-height:1.55;color:#5A4B46;max-width:480px;">Learn on the go, for free</p>
+    <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;">
+      <a class="btn" href="#glimpse">Watch the free glimpse</a>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:14px;width:100%;margin-top:8px;">
+      <a class="soc-cta" href="https://www.instagram.com/ashikamehta/" target="_blank" rel="noopener" style="flex:1 1 210px;min-width:0;box-sizing:border-box;display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:18px;background:#FFFFFF;border:1.5px solid #E6D3C8;text-decoration:none;color:#2A211E;text-align:left;">
+        <span class="soc-ic" style="flex:0 0 auto;width:42px;height:42px;border-radius:50%;background:#F6DDD3;color:#B83A2A;display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.6"></circle><circle cx="17" cy="7" r=".6" fill="currentColor"></circle></svg></span>
+        <span style="display:flex;flex-direction:column;gap:2px;min-width:0;"><span style="font-size:16px;font-weight:700;line-height:20px;">Instagram</span><span class="soc-cap" style="font-size:13px;line-height:17px;color:#8A6B66;">Reels, tips and daily reminders</span></span>
+        <svg class="soc-ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto;flex:0 0 auto;"><path d="M7 17L17 7M9 7h8v8"></path></svg>
+      </a>
+      <a class="soc-cta" href="#substack" target="_blank" rel="noopener" style="flex:1 1 210px;min-width:0;box-sizing:border-box;display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:18px;background:#FFFFFF;border:1.5px solid #E6D3C8;text-decoration:none;color:#2A211E;text-align:left;">
+        <span class="soc-ic" style="flex:0 0 auto;width:42px;height:42px;border-radius:50%;background:#F6DDD3;color:#B83A2A;display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 11h16M5 16h14v4l-7-3.2L5 20z"></path></svg></span>
+        <span style="display:flex;flex-direction:column;gap:2px;min-width:0;"><span style="font-size:16px;font-weight:700;line-height:20px;">Substack</span><span class="soc-cap" style="font-size:13px;line-height:17px;color:#8A6B66;">Weekly essays, in your inbox</span></span>
+        <svg class="soc-ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto;flex:0 0 auto;"><path d="M7 17L17 7M9 7h8v8"></path></svg>
+      </a>
+      <a class="soc-cta" href="https://www.youtube.com/@mindrealignedbyashika" target="_blank" rel="noopener" style="flex:1 1 210px;min-width:0;box-sizing:border-box;display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:18px;background:#FFFFFF;border:1.5px solid #E6D3C8;text-decoration:none;color:#2A211E;text-align:left;">
+        <span class="soc-ic" style="flex:0 0 auto;width:42px;height:42px;border-radius:50%;background:#F6DDD3;color:#B83A2A;display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M10 8.6v6.8l5.6-3.4z" fill="currentColor"></path></svg></span>
+        <span style="display:flex;flex-direction:column;gap:2px;min-width:0;"><span style="font-size:16px;font-weight:700;line-height:20px;">YouTube</span><span class="soc-cap" style="font-size:13px;line-height:17px;color:#8A6B66;">Full conversations and talks</span></span>
+        <svg class="soc-ar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto;flex:0 0 auto;"><path d="M7 17L17 7M9 7h8v8"></path></svg>
+      </a>
+    </div>
+        <form class="nl-box" action="#" style="margin-top:20px;width:100%;max-width:640px;box-sizing:border-box;padding:30px 36px 26px;border-radius:28px;background:linear-gradient(180deg,#F8EAE5 0%,#EFD0C3 100%);box-shadow:0 14px 34px -14px rgba(120,60,45,.32),0 2px 6px rgba(120,60,45,.08);display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;">
+      <span style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:#E9866A;line-height:16px;">Weekly newsletter</span>
+      <label for="n-email" class="serif" style="font-size: 20px; line-height: 38px; color: #141010; -webkit-text-stroke: .5px #141010; margin-top: 2px; font-family: Merriweather, serif; font-weight: 700">Or get Ashika’s Substack by email</label>
+      <span style="font-size:14.5px;line-height:21px;font-weight:500;color:#8A6B66;">One thoughtful essay a week. Unsubscribe any time.</span>
+      <div style="margin-top:16px;width:100%;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+        <input id="n-email" type="email" placeholder="you@email.com" style="flex:1 1 260px;min-width:0;height:50px;box-sizing:border-box;border:1px solid #D9A99A;border-radius:999px;padding:0 22px;font-size:15px;background:#FFFFFF;color:#2A211E;">
+        <button type="submit" class="nl-btn" style="flex:0 0 auto;height:50px;padding:0 30px;border:0;border-radius:999px;background:#B83A2A;color:#FFFFFF;font-family:inherit;font-size:15px;font-weight:500;cursor:pointer;transition:background .25s;">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" style="flex:1 0 auto;min-height:400px;box-sizing:border-box;background:#2A211E;color:#F6E8E2;padding:72px 56px 40px;display:flex;flex-direction:column;justify-content:space-between;gap:48px;">
+  <div style="max-width:1160px;margin:0 auto;width:100%;display:flex;flex-wrap:wrap;gap:48px;justify-content:space-between;">
+    <div style="flex:1 1 280px;display:flex;flex-direction:column;gap:6px;">
+      <span class="serif" style="font-size: 36px; color: #F6E8E2; font-family: Merriweather, serif; font-weight: 700">Ashika Mehta</span>
+      <span style="font-size:15px;color:#F2B3A4;font-style:italic;">mind realigned</span>
+      <span style="font-size:15px;line-height:1.55;color:#E3D5CA;margin-top:12px;max-width:280px;">Honest conversations on motherhood, mental health and the relationships around them.</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px;font-size:15px;">
+      <span style="font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#E3D5CA;">Explore</span>
+      <a href="/motherhood" style="color:#F6E8E2;text-decoration:none;">Motherhood</a>
+      <a href="/relationships" style="color:#F6E8E2;text-decoration:none;">Relationships</a>
+      <a href="/talks" style="color:#F6E8E2;text-decoration:none;">Talks</a>
+      <a href="/about" style="color:#F6E8E2;text-decoration:none;">About</a>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px;font-size:15px;">
+      <span style="font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#E3D5CA;">Work with Ashika</span>
+      <a href="/speaking" style="color:#F6E8E2;text-decoration:none;">Book a talk</a>
+      <a href="/press" style="color:#F6E8E2;text-decoration:none;">Press</a>
+      <a href="/contact" style="color:#F6E8E2;text-decoration:none;">Contact</a>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px;font-size:15px;">
+      <span style="font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#E3D5CA;">Follow</span>
+      <a href="#" style="color:#F6E8E2;text-decoration:none;">Instagram</a>
+      <a href="#" style="color:#F6E8E2;text-decoration:none;">YouTube</a>
+      <a href="#" style="color:#F6E8E2;text-decoration:none;">Substack</a>
+    </div>
+  </div>
+  <div style="max-width:1160px;margin:0 auto;width:100%;box-sizing:border-box;padding-top:24px;border-top:1px solid #5A4B46;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;font-size:14px;color:#E3D5CA;">
+    <span>© [year] Ashika Mehta. Educational content, not a substitute for professional care.</span>
+    <span style="display:flex;gap:24px;">
+      <a href="/support" style="color:#F6E8E2;">Support resources</a>
+      <a href="/privacy" style="color:#F6E8E2;">Privacy</a>
+      <a href="/terms" style="color:#F6E8E2;">Terms</a>
+    </span>
+  </div>
+</footer>
+
+<p style="margin: 0">How does Psychoteraphy work?
+Chetan Bhagat X Ashika
+Can apology truly repair damage?</p></div>
+<helmet><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,700&amp;family=Lobster+Two:ital,wght@1,700&amp;display=swap"></helmet></x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"autoplay":{"editor":"boolean","default":true},"$preview":{"width":1360,"height":8000}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { i: 0, playing: true, door: 0, pod: 1, tf: 'all', tp: 0, lc: -1, cf: 'all', cc: 0, cur: 'USD', cm: ['f', 'o', 'f', 'f', 'f', 'f'] };
+    this.crTimer = null;
+    this.crLast = 0;
+    this.timer = null;
+    this.doorTimer = null;
+    this.podTimer = null;
+    this.tTimer = null;
+  }
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      if (this.state.playing && this.props.autoplay) {
+        this.setState({ i: (this.state.i + 1) % 5 });
+      }
+    }, 3000);
+    this.doorTimer = setInterval(() => {
+      if (this.props.autoplay) {
+        this.setState({ door: (this.state.door + 1) % 2 });
+      }
+    }, 5000);
+    this.podTimer = setInterval(() => {
+      if (this.props.autoplay) {
+        this.setState({ pod: (this.state.pod + 1) % 6 });
+      }
+    }, 5500);
+    this.crTimer = setInterval(() => {
+      if (this.props.autoplay && this.state.cf === 'all' && Date.now() - this.crLast > 9000) {
+        this.setState({ cc: (this.state.cc + 1) % 6 });
+      }
+    }, 5500);
+    this.tTimer = setInterval(() => {
+      if (this.props.autoplay && this.state.tf === 'all') {
+        this.setState({ tp: (this.state.tp + 1) % 2 });
+      }
+    }, 7000);
+  }
+  componentWillUnmount() {
+    if (this.crTimer) clearInterval(this.crTimer);
+    if (this.tTimer) clearInterval(this.tTimer);
+    if (this.podTimer) clearInterval(this.podTimer);
+    if (this.timer) clearInterval(this.timer);
+    if (this.doorTimer) clearInterval(this.doorTimer);
+  }
+  renderVals() {
+    const slides = [
+      { label: 'Ted Talk', shot: 'Ashika on the TEDx stage' },
+      { label: 'Workshops', shot: 'In front of mics, mid-sentence' },
+      { label: 'Podcasts', shot: 'Podcast studio, headphones on' },
+      { label: 'Charity', shot: 'Charity work in the community' },
+      { label: 'Therapy', shot: 'Professional portrait, in the office' }
+    ];
+    const pods = [
+      { img: './assets/2ab17144589739177baf372e30692ca7.png', href: 'https://www.youtube.com/watch?v=yNz5CUoawOQ&pp=ygUMYXNoaWthIG1laHRh', title: '', cap: '', label: 'Watch: How does psychotherapy work?' },
+      { img: './assets/43ddb747ac8f24a88c21c8be66d9457f.png', href: 'https://www.youtube.com/watch?v=DCMRy_LEwDw&pp=ygUMYXNoaWthIG1laHRh', title: '', cap: '', label: 'Watch: Chetan Bhagat x Ashika on DeepTalk' },
+      { img: './assets/67de56fc6e9b70b4cf895a1d0f521ab1.png', href: 'https://www.youtube.com/shorts/PDhfJjwB_xA?feature=share', title: '', cap: '', label: 'Watch: Can apology truly repair damage?' },
+      { img: './assets/3dab8134f8b6e92065931741ffc65a64.png', href: 'https://www.youtube.com/watch?v=zW1IBEDRNLc', title: 'Navigating shame & family patterns', cap: 'The Tara Sharma Show', label: 'Watch: Navigating shame, family dynamics and emotional patterns on The Tara Sharma Show' },
+      { img: './assets/3020d45db526630e614cc55f47c56a27.png', href: 'https://www.youtube.com/watch?v=vcBRp06mhqs', title: 'Is social media hurting Gen Z?', cap: 'Not Your Aunty Podcast', label: 'Watch: Is social media hurting Gen Z? on Not Your Aunty Podcast' },
+      { img: './assets/f84673a5742a62f63aa385d7c470e63e.png', href: 'https://www.youtube.com/watch?v=1qaEgSuYWX0', title: 'Mental health & emotional coping', cap: 'Spilling Facts', label: 'Watch: Mental Health and Emotional Coping on Spilling Facts' }
+    ];
+    const pc = this.state.pod;
+    const ease = 'cubic-bezier(.3,1.2,.45,1)';
+    const dur = '1.5s';
+    const slots = {
+      0: { left: 233, top: 0, w: 214, h: 380, r: 28, op: 1, z: 2, fs: 25, ft: 18, sh: '0 26px 50px -12px rgba(110,50,35,.38),0 8px 18px rgba(110,50,35,.14)' },
+      1: { left: 491, top: 22, w: 189, h: 335, r: 25, op: 1, z: 1, fs: 22, ft: 16 , sh: '0 12px 26px -8px rgba(110,50,35,.22)' },
+      5: { left: 0, top: 22, w: 189, h: 335, r: 25, op: 1, z: 1, fs: 22, ft: 16 , sh: '0 12px 26px -8px rgba(110,50,35,.22)' },
+      4: { left: -233, top: 22, w: 189, h: 335, r: 25, op: 0, z: 0, fs: 22, ft: 16 , sh: '0 12px 26px -8px rgba(110,50,35,.22)' },
+      2: { left: 724, top: 22, w: 189, h: 335, r: 25, op: 0, z: 0, fs: 22, ft: 16 , sh: '0 12px 26px -8px rgba(110,50,35,.22)' },
+      3: { left: 957, top: 22, w: 189, h: 335, r: 25, op: 0, z: 0, fs: 22, ft: 16 , sh: '0 12px 26px -8px rgba(110,50,35,.22)' }
+    };
+    const podVals = {};
+    pods.forEach((it, k) => {
+      const d = ((k - pc) % 6 + 6) % 6;
+      const sl = slots[d];
+      const tr = 'left ' + dur + ' ' + ease + ',top ' + dur + ' ' + ease + ',width ' + dur + ' ' + ease + ',height ' + dur + ' ' + ease + ',border-radius ' + dur + ' ' + ease + ',box-shadow ' + dur + ' ' + ease + ',opacity 1s ease';
+      podVals['c' + k] = {
+        href: it.href,
+        label: it.label,
+        title: it.title,
+        cap: it.cap,
+        tab: sl.op ? '0' : '-1',
+        wrap: 'display:block;position:absolute;overflow:hidden;text-decoration:none;left:' + sl.left + 'px;top:' + sl.top + 'px;width:' + sl.w + 'px;height:' + sl.h + 'px;border-radius:' + sl.r + 'px;opacity:' + sl.op + ';box-shadow:' + sl.sh + ';z-index:' + sl.z + ';pointer-events:' + (sl.op ? 'auto' : 'none') + ';transition:' + tr + ';background:url("' + it.img + '") center / 100% 100% no-repeat;',
+        tstyle: 'position:absolute;left:10px;right:10px;top:' + sl.ft + 'px;text-align:center;font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:' + sl.fs + 'px;line-height:1.04;color:#FFF8C9;text-shadow:0 0 10px rgba(255,236,120,.6),0 2px 4px rgba(0,0,0,.35);transition:top ' + dur + ' ' + ease + ',font-size ' + dur + ' ' + ease + ';',
+        cstyle: 'position:absolute;left:8px;right:8px;bottom:14px;text-align:center;font-size:11px;font-weight:700;color:#FFFFFF;text-shadow:0 1px 3px rgba(0,0,0,.7);'
+      };
+    });
+    const TP = './assets/fd826e85c9812c455a3648de995d4a11.png';
+    const GG = './assets/de8f7511a990789f1ce8b87f5952be22.png';
+    const tdata = [
+      { aud: 'relationships', ul: '\u201CAshika\u2019s content helped me communicate more intentionally', rest: ' with my partner of 5+ years\u201D', who: '\u2013 Sid George, Mumbai', av: './assets/cb0f429416cac5f9e2d76fe96f06f4d9.png', init: '', bg: '', logo: TP, logoAlt: 'Trustpilot, 5 stars' },
+      { aud: 'motherhood', ul: '\u201CMotherhood was difficult to navigate', rest: ' alone I\u2019m glad Ashika\u2019s guidance made it way easier to manage\u201D', who: '\u2013 Nidhi Martha, Mum of 2', av: './assets/e96e158424444ca2ad5f1a613c98ce06.png', init: '', bg: '', logo: GG, logoAlt: 'Google reviews, 5 stars' },
+      { aud: 'motherhood', ul: '\u201CI became a better parent', rest: ' when I understood my own patterns, thanks to Ashika\u2019s workshop\u201D', who: '\u2013 Anita Dalmia , Working Mum', av: './assets/5e6db7a112ae453068a92bc22c12206c.png', init: '', bg: '', logo: GG, logo2: '', logoAlt: 'Google reviews, 5 stars' },
+      { aud: 'relationships', ul: '\u201CThe course gave me words', rest: ' for feelings I had carried for years. I finally feel calmer, not just coping\u201D', who: '\u2013 Priya Nair, Bengaluru', av: '', init: 'PN', bg: '#F4C9BE', logo: GG, logoAlt: 'Google reviews, 5 stars' },
+      { aud: 'relationships', ul: '\u201CAshika\u2019s therapy sessions helped me see', rest: ' why I react the way I do. Our home is gentler now\u201D', who: '\u2013 Rahul Mehra, Delhi', av: '', init: 'RM', bg: '#D9D2EA', logo: TP, logoAlt: 'Trustpilot, 5 stars' },
+      { aud: 'motherhood', ul: '\u201CThe motherhood programme felt like a deep breath', rest: ' after a long year. Short lessons I could finish between naps\u201D', who: '\u2013 Kavya Iyer, Mum of 1, Pune', av: '', init: 'KI', bg: '#CFE6DC', logo: GG, logoAlt: 'Google reviews, 5 stars' }
+    ];
+    const tf = this.state.tf;
+    const tlist = tdata.filter((t) => tf === 'all' || t.aud === tf);
+    const tpage = tf === 'all' ? this.state.tp : 0;
+    const tCards = tlist.slice(tpage * 3, tpage * 3 + 3).map((t) => ({
+      ul: t.ul, rest: t.rest, who: t.who, init: t.init, logo: t.logo, logoAlt: t.logoAlt,
+      avatar: 'margin-top:18px;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#5A4B46;' + (t.av ? 'background:url("' + t.av + '") center / cover no-repeat;' : 'background:' + t.bg + ';')
+    }));
+    const tabDefs = [['all', 'All'], ['motherhood', 'Motherhood'], ['relationships', 'Relationships']];
+    const tabs = tabDefs.map((d) => ({
+      label: d[1],
+      style: 'height:36px;padding:0 18px;border-radius:999px;font-family:inherit;font-size:14px;font-weight:500;cursor:pointer;' + (tf === d[0] ? 'background:#2A211E;color:#FFFFFF;border:1px solid #2A211E;' : 'background:transparent;color:#2A211E;border:1px solid #2A211E;'),
+      go: () => this.setState({ tf: d[0], tp: 0 })
+    }));
+    const courses = [
+      { aud: 'motherhood', bg: '#FEE8E0', eyebrow: 'For new mothers', title: 'Post Partum Reset', sub: 'Are you a new mother struggling with post-childbirth mental health?', b: ['Learn from a trained professional who’s lived through your experience too.', 'Instagram reel style byte sized content totalling 2 hours, 29 modules, 29 scrolls.', 'Emerge empowered & stronger especially if you feel like no one gets it.'], cta: 'Free Preview', href: '/motherhood/post-partum-reset', p: { f: [60, 33], o: [40, 19] } },
+      { aud: 'motherhood', bg: '#FFFFFF', eyebrow: 'For all mothers', title: 'Balanced Working Mom', sub: 'Do you need to pick between being a good mother or a great career?', b: ['This course unwraps how Ashika built a thriving practice alongside motherhood.', 'Not just thrive but also fulfil most goals while still carving out time for kids.', 'Circle back to the course summary in moments when you feel things are tricky.'], cta: 'Learn More', href: '/motherhood/balanced-working-mom', p: { f: [75, 45], o: [45, 20] } },
+      { aud: 'motherhood', bg: '#FAD8CC', eyebrow: 'For mothers on empty', title: 'Master Stress & Anxiety', sub: 'Does your mind race long after the kids are asleep?', b: ['Understand what is driving your anxiety, guided by a trained psychotherapist.', 'Practical tools for racing thoughts and burnout in 5 minute lessons.', 'Build a calm you can return to on your hardest days, not only the easy ones.'], cta: 'Free Preview', href: '/motherhood/master-stress-and-anxiety', p: { f: [60, 33], o: [40, 19] } },
+      { aud: 'relationships', bg: '#FEE8E0', eyebrow: 'For couples', title: 'Talk Without Fighting', sub: 'Do small disagreements keep turning into big fights?', b: ['Spot the communication patterns that quietly drive most arguments.', 'Short guided practices you can try together or on your own.', 'Say what you need and feel heard, without the blow-up.'], cta: 'Free Preview', href: '/relationships/talk-without-fighting', p: { f: [65, 36], o: [42, 22] } },
+      { aud: 'relationships', bg: '#FFFFFF', eyebrow: 'For partners', title: 'Repair & Reconnect', sub: 'Feeling distant from the person you love?', b: ['A step by step process to repair after conflict, sooner.', 'Rebuild trust and closeness with simple weekly rituals.', 'Understand your own attachment patterns and how they show up at home.'], cta: 'Learn More', href: '/relationships/repair-and-reconnect', p: { f: [55, 30], o: [35, 18] } },
+      { aud: 'relationships', bg: '#FAD8CC', eyebrow: 'For parents together', title: 'Parenting as Partners', sub: 'Did becoming parents change how you work as a couple?', b: ['Share the mental load without keeping score.', 'Stay close as partners while raising little ones.', 'Handle disagreements about parenting calmly and as a team.'], cta: 'Free Preview', href: '/relationships/parenting-as-partners', p: { f: [70, 39], o: [45, 24] } }
+    ];
+    const curDefs = [['USD', '$', 1, 'USD $'], ['INR', '₹', 83, 'INR ₹'], ['GBP', '£', 0.79, 'GBP £'], ['EUR', '€', 0.92, 'EUR €'], ['AED', 'AED ', 3.67, 'AED']];
+    const curSel = curDefs.filter((c) => c[0] === this.state.cur)[0];
+    const money = (usd) => {
+      let v = usd * curSel[2];
+      v = curSel[0] === 'INR' ? Math.round(v / 50) * 50 : Math.round(v);
+      const txt = curSel[0] === 'INR' ? String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ',') : String(v);
+      return curSel[1] + txt;
+    };
+    const curs = curDefs.map((c) => ({
+      label: c[3],
+      pressed: c[0] === this.state.cur ? 'true' : 'false',
+      style: 'height:24px;padding:0 10px;border-radius:999px;border:0;font-family:inherit;font-size:11.5px;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .25s,color .25s;' + (c[0] === this.state.cur ? 'background:#141010;color:#FFFFFF;' : 'background:transparent;color:#8A6B66;'),
+      go: () => { this.crLast = Date.now(); this.setState({ cur: c[0] }); }
+    }));
+    const cf = this.state.cf;
+    const crList = courses.map((c, k) => k).filter((k) => cf === 'all' || courses[k].aud === cf);
+    const crN = crList.length;
+    const crc = crN > 3 ? this.state.cc % crN : 0;
+    const CW = 346, CG = 28, CH = 503;
+    const crEase = 'cubic-bezier(.3,1.2,.45,1)';
+    const crTr = 'left 1.5s ' + crEase + ',opacity .9s ease,box-shadow .6s ease';
+    const rcVals = {};
+    courses.forEach((c, k) => {
+      const idx = crList.indexOf(k);
+      let left, op;
+      if (idx < 0) { left = 3 * (CW + CG); op = 0; }
+      else {
+        const d = ((idx - crc) % crN + crN) % crN;
+        if (d < 3) { left = d * (CW + CG); op = 1; }
+        else if (d === crN - 1) { left = -(CW + CG); op = 0; }
+        else { left = 3 * (CW + CG); op = 0; }
+      }
+      const mode = this.state.cm[k];
+      const pr = c.p[mode];
+      const act = 'background:#FFFFFF;color:#B83A2A;';
+      const off = 'background:transparent;color:#FFFFFF;';
+      const bb = 'flex:1 1 50%;border:0;margin:0;padding:0;border-radius:999px;font-family:inherit;font-size:11.5px;font-weight:700;letter-spacing:.03em;cursor:pointer;transition:background .25s,color .25s;';
+      const setMode = (m) => () => {
+        const cm = this.state.cm.slice();
+        cm[k] = m;
+        this.crLast = Date.now();
+        this.setState({ cm: cm });
+      };
+      rcVals['rc' + k] = {
+        wrap: 'position:absolute;top:0;left:' + left + 'px;width:' + CW + 'px;height:' + CH + 'px;box-sizing:border-box;overflow:hidden;border-radius:24px;background:' + c.bg + ';box-shadow:0 5px 16px rgba(80,40,30,.2),0 1px 3px rgba(80,40,30,.12);opacity:' + op + ';pointer-events:' + (op ? 'auto' : 'none') + ';transition:' + crTr + ';',
+        tab: op ? '0' : '-1',
+        eyebrow: c.eyebrow, title: c.title, sub: c.sub, b1: c.b[0], b2: c.b[1], b3: c.b[2],
+        cta: c.cta, href: c.href,
+        orig: money(pr[0]), disc: money(pr[1]),
+        sF: bb + (mode === 'f' ? act : off), sO: bb + (mode === 'o' ? act : off),
+        pF: mode === 'f' ? 'true' : 'false', pO: mode === 'o' ? 'true' : 'false',
+        goF: setMode('f'), goO: setMode('o')
+      };
+    });
+    const crTabs = [['all', 'All'], ['motherhood', 'Motherhood'], ['relationships', 'Relationships']].map((d) => ({
+      label: d[1],
+      style: 'height:28px;padding:0 16px;border-radius:999px;font-family:inherit;font-size:11.5px;font-weight:500;line-height:1;cursor:pointer;transition:background .25s,color .25s;' + (cf === d[0] ? 'background:#141010;color:#FFFFFF;border:1px solid #141010;' : 'background:transparent;color:#141010;border:1px solid #141010;'),
+      go: () => { this.crLast = Date.now(); this.setState({ cf: d[0], cc: 0 }); }
+    }));
+    const lcNames = ['Master Stress & Anxiety', 'Post Partum Reset', 'Balanced Working Mom', 'Better Self Worth', 'Self Love Mastery'];
+    const lcChips = lcNames.map((nm, k) => ({
+      label: nm,
+      pressed: this.state.lc === k ? 'true' : 'false',
+      style: 'height:23px;padding:0 10px;border-radius:999px;font-family:inherit;font-size:9.5px;font-weight:500;line-height:1;cursor:pointer;white-space:nowrap;transition:background .2s,color .2s;' + (this.state.lc === k ? 'background:#141010;color:#FFFFFF;border:1px solid #141010;' : 'background:#FFFFFF;color:#141010;border:1px solid #141010;'),
+      go: () => this.setState({ lc: this.state.lc === k ? -1 : k })
+    }));
+    const n = slides.length;
+    const i = this.state.i;
+    const playing = this.state.playing;
+    const chipBase = 'height:26px;width:74px;padding:0;border-radius:100px;font-family:inherit;font-size:11px;line-height:1;cursor:pointer;';
+    return {
+      cur: slides[i],
+      c0: podVals.c0, c1: podVals.c1, c2: podVals.c2, c3: podVals.c3, c4: podVals.c4, c5: podVals.c5,
+      rc0: rcVals.rc0, rc1: rcVals.rc1, rc2: rcVals.rc2, rc3: rcVals.rc3, rc4: rcVals.rc4, rc5: rcVals.rc5,
+      crTabs: crTabs,
+      lcChips: lcChips,
+      curs: curs,
+      tCards: tCards,
+      tabs: tabs,
+      showDoor0: this.state.door === 0,
+      showDoor1: this.state.door === 1,
+      show0: i === 0,
+      show1: i === 1,
+      show2: i === 2,
+      show3: i === 3,
+      show4: i === 4,
+      show5: i === 5,
+      counter: (i + 1) + ' / ' + n,
+      nextLabel: slides[(i + 1) % n].label,
+      playing: playing,
+      paused: !playing,
+      playLabel: playing ? 'Pause slideshow' : 'Play slideshow',
+      prev: () => this.setState({ i: (i + n - 1) % n }),
+      next: () => this.setState({ i: (i + 1) % n }),
+      toggle: () => this.setState({ playing: !playing }),
+      chips: slides.map((s, k) => ({
+        label: s.label,
+        style: chipBase + (k === i ? 'background:#000000;color:#FFFFFF;border:1px solid #000000;' : 'background:#F2A491;color:#B83A2A;border:1px solid #C84A38;'),
+        go: () => this.setState({ i: k })
+      })).filter((c) => c.label)
+    };
+  }
+}
+</script>
+</body>
+</html>
